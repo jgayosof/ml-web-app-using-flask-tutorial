@@ -7,7 +7,7 @@ numpy>=1.18.5
 
 # Machine learning ----------------------------
 sklearn
-pickle
+pickle5
 
 # Heroku Web APP ------------------------------
 flask
