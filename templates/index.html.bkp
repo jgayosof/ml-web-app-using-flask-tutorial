@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML app</title>
+</head>
+<body>
+   <h1>Welcome to my Titanic Survival prediction app</h1>
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Welcome to my Titanic Survival prediction app</title>
+</head>
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
+{% endblock %}
+
+<label for="Sex">Gender</label>
+    <select id="relation" name="relation">
+      <option value="0">Male</option>
+      <option value="1">Female</option>
+    </select>

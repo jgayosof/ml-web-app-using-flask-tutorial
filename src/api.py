@@ -7,7 +7,7 @@ import numpy as np
 import json
 
 # load the model from disk
-loaded_model = pickle.load(open('../models/titanic_model.pickle', 'rb'))
+loaded_model = pickle.load(open('../models/titanic_model.pkl', 'rb'))
 
 '''
 int_features = [int(x) for x in request.form.values()]
